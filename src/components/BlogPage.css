@@ -1,0 +1,52 @@
+.blog-page {
+    padding: 20px;
+    background-color: #f2f2f283;
+}
+
+.blog-header {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subtitle {
+    font-size: small;
+    color: grey;
+}
+
+.underline {
+    width: 50px;
+    border-bottom: 2px solid blue;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.blog-item {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+}
+
+.blog-item button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-item button:hover {
+    background-color: darkblue;
+}
+.h2{
+    top: 200px;
+}

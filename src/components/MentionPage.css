@@ -1,0 +1,44 @@
+.mention-page-container {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+  }
+  
+  
+  .mention-title {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .mention-section {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .mention-section h2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  
+  .mention-content {
+    margin-top: 10px; 
+  }
+  
+  
+  a {
+    color: blue; 
+    text-decoration: underline; 
+    cursor: pointer; 
+  }
+  
+  
+  a:hover {
+    color: darkblue; 
+  }
+  
